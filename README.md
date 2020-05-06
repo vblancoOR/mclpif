@@ -38,4 +38,7 @@ Distribution management : mathematical modelling and practical analysis. Folder 
   * GapIP2: MIPGap  for the Incomplete formulation (INC2) within the time limit (3600 secs).
   * C_IP2: Clusters of points obtained with formulation (INC2).
 
-We report a file for each 
+
+We also report a file with the results obtained with the compact formulation with the following information:
+  
+  * 
