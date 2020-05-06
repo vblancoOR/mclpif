@@ -49,5 +49,4 @@ We also report a file with the results obtained with the compact formulation (fi
   * #O_Ctrs: Number of O-sets constraints.
   * #All_Ctrs: Total number of constraints.
   * Gap: MIP Gap for the IP formulation within the time limit (3600 secs)
-  * NonComputed: 1 if  and 0 otherwise
   * OoM: 1 if the problem got a Out Of Memory Flag in Gurobi; 0 otherwise.
