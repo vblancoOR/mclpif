@@ -39,7 +39,7 @@ Distribution management : mathematical modelling and practical analysis. Folder 
   * C_IP2: Clusters of points obtained with formulation (INC2).
 
 
-We also report a file with the results obtained with the compact formulation (file ovals.csv) with the following information:
+We also report a file with the results obtained with the compact formulation (file CompactIP_Results.csv) with the following information:
   
   * obj_IP: objective value.
   * IP_Time: CPU time required to solve the IP problem.
