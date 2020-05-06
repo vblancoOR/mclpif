@@ -39,6 +39,15 @@ Distribution management : mathematical modelling and practical analysis. Folder 
   * C_IP2: Clusters of points obtained with formulation (INC2).
 
 
-We also report a file with the results obtained with the compact formulation with the following information:
+We also report a file with the results obtained with the compact formulation (file ovals.csv) with the following information:
   
-  * 
+  * obj_IP: objective value.
+  * IP_Time: CPU time required to solve the IP problem.
+  * COntrGen_Time: CPU Time required to incorporate the constraints to the model. 
+  * Tot_Time: Total CPU time (IP_Time + COnctr_Time)
+  * #Ball_Ctrs: Number of ball-type constraints.
+  * #O_Ctrs: Number of O-sets constraints.
+  * #All_Ctrs: Total number of constraints.
+  * Gap: MIP Gap for the IP formulation within the time limit (3600 secs)
+  * NonComputed: 1 if  and 0 otherwise
+  * OoM: 1 if the problem got a Out Of Memory Flag in Gurobi; 0 otherwise.
